@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Brad Traversy">
+    <title>seu bot de diversão | ajuda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight"></span> sitezoyabot</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">início</a></li>
+            <li><a href="about.html">comands</a></li>
+            <li class="current"><a href="services.html">ajuda</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte do Bot Zoya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Fundo preto para destacar as estrelas */
+            color: #fff; /* Texto branco */
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+        }
+        .estrela {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: brilhar 1.5s infinite alternate;
+        }
+        @keyframes brilhar {
+            0% { opacity: 0.5; transform: scale(1); }
+            100% { opacity: 1; transform: scale(1.5); }
+        }
+        .mensagem {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        .email {
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Precisa de Ajuda?</h1>
+    <div class="mensagem">Se precisar de ajuda, fale com a dona do bot Ayozuri!</div>
+    <div class="email">Email: raissateodoro047@gmail.com</div> <!-- Substitua pelo seu email -->
+
+    <script>
+        function criarEstrela() {
+            const estrela = document.createElement('div');
+            estrela.classList.add('estrela');
+            
+            const tamanho = Math.random() * 10 + 5; // Tamanho aleatório entre 5 e 15 pixels
+            estrela.style.width = `${tamanho}px`;
+            estrela.style.height = `${tamanho}px`;
+            
+            estrela.style.top = Math.random() * window.innerHeight + 'px';
+            estrela.style.left = Math.random() * window.innerWidth + 'px';
+            
+            document.body.appendChild(estrela);
+            
+            // Remove a estrela após um tempo
+            setTimeout(() => {
+                estrela.remove();
+            }, 2000);
+        }
+
+        setInterval(criarEstrela, 300); // Cria uma nova estrela a cada 300ms
+    </script>
+
+</body>
+</html>
+
+    
+
+ so lembrando que o bot ta em desenvolvimento.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #;
+        }
+        .faq, .feedback {
+            background: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .question {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .answer {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ajuda</h1>
+
+    
+    <div class="feedback">
+        <h2>Feedback dos Usuários</h2>
+        <p>Adoramos ouvir suas opiniões! Por favor, deixe seu feedback abaixo:</p>
+        
+        <form action="#" method="post">
+            <label for="name">Seu Nome:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Seu E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Seu Feedback:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar Feedback">
+        </form>
+    </div>
+
+</body>
+</html>
+
+Claro! Aqui está um exemplo simples de um código HTML para uma seção de Perguntas Frequentes (FAQ). Você pode personalizar as perguntas e respostas conforme necessário:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00000;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .faq {
+            background: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .question {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .answer {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Perguntas Frequentes (FAQ)</h1>
+
+    <div class="faq">
+        <div class="question">1. Como posso criar uma conta?</div>
+        <div class="answer">Para criar uma conta, clique no botão "Registrar" na página inicial e preencha o formulário com suas informações.</div>
+
+        <div class="question">2. Quais são os métodos de pagamento aceitos?</div>
+        <div class="answer">Aceitamos cartões de crédito, débito e pagamentos via PayPal.</div>
+
+        <div class="question">3. Posso alterar meu endereço de entrega depois de fazer um pedido?</div>
+        <div class="answer">Sim, você pode alterar seu endereço de entrega até que o pedido seja enviado. Basta entrar em contato com nosso suporte.</div>
+
+        <div class="question">4. Como posso rastrear meu pedido?</div>
+        <div class="answer">Após o envio do seu pedido, você receberá um e-mail com um link para rastreamento.</div>
+
+        <div class="question">5. O que fazer se eu receber um item danificado?</div>
+        <div class="answer">Se você receber um item danificado, entre em contato conosco imediatamente para que possamos resolver o problema.</div>
+    </div>
+
+</body>
+</html>
+
+
+
+    <footer>
+      <p>zoya bot, Copyright &copy; 2019</p>
+    </footer>
+  </body>
+</html>
